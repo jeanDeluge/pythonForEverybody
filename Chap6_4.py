@@ -1,0 +1,5 @@
+line = input('문장 입력:')
+line.lower()
+finding = input('문자입력:')
+found = line.count(finding)
+print(found)
